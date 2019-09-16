@@ -1,8 +1,8 @@
 nestedView('PT-Beta-Kops') {
    views {
-           listView('PT_BE','test') {
+           listView('PT_BE') {
                 jobs {
-                      names("example")
+                      names("example","test")
                 }
                 columns {
                status()
