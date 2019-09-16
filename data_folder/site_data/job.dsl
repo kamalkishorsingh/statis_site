@@ -1,5 +1,5 @@
 mavenJob('maven_beta') {
-  description('I\'ll do continuous API deployment of all componets availble in Bigparser_Backend.')
+  description('I\'ll do continuous API deployment of all componets availble in KK_Backend.')
   disabled()
   logRotator {
       daysToKeep(60)
